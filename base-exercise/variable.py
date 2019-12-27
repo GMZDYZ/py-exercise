@@ -40,3 +40,30 @@ print(float_a, float_b, float_a * float_b)
 int_a1 = 1
 int_a2 = 2
 print(int_a1 and int_a2)
+
+"""
+    python变量命名规则
+    1 第一个字符必须是字母或者下划线“_”
+    2 剩下的部分可以是字母，数字，下划线
+    3 python变量命名对大小写敏感，即 value和Value为两个不同的变量
+    
+    举几个例子：
+    i = 1
+    __my_name = 2
+    name_23 = 3
+    a1b2_c3 = 4
+    
+    几个不正确的例子：
+    2things=1
+    this is spaced out=2
+    my-name=3
+"""
+a = 1
+a += 3
+# 注意这里的a+=3不能成为一个变量
+print(a)
+# 关于bool
+bool_a = True
+bool_b = not a
+
+print(1<2 and bool_b==True) # False
